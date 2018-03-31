@@ -1,5 +1,5 @@
 {
-  "name": "app-redirect-angular",
+  "name": "login-app-angular-tests",
   "version": "1.0.0",
   "description": "Simple example of test cases for app with redirect after login",
   "main": "config.js",
