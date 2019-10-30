@@ -1,4 +1,5 @@
 'use strict';
+
 exports.config = {
   directConnect: true,
   framework: 'jasmine',
@@ -11,9 +12,10 @@ exports.config = {
     homePageUrl: 'http://localhost:3000'
   },
   specs: [
-    'test-case-example.js'
+    'test/test-case-example.js'
   ],
   onPrepare: function() {
     global.faker = require('faker');
+    global.EC = protractor.ExpectedConditions;
   }
 }
